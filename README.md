@@ -233,8 +233,6 @@ pytest
 The tests use a mocked HTTP transport and a fake `lm_eval`. No server, GPU or API key
 needed.
 
-Built with Claude Code as a coding agent, from my own lab scripts and notes.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
