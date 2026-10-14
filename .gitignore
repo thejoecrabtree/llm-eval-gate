@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local env / secrets: never commit keys
+.env
+.env.*
+*.env
+api_keys*
+
+# Run outputs (results contain model output and endpoint URLs)
+results/
+bench-runs/
+*.result.json
+last.json
+last_result.json
+baseline*.json
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
